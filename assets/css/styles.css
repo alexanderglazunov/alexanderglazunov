@@ -1,0 +1,56 @@
+body{
+        font-family: 'Kaushan Script', cursive;
+
+}
+.container{
+    margin: auto 20px;
+}
+.header-logo{
+    font-size: 74px;
+    font-weight: 800;
+    margin-top: 15px;
+    text-align: center;
+}
+.header-title{
+    font-size: 74px;
+    line-height: 89.2%;
+    font-weight: 300;
+    width: 878px; 
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+.header-inner{
+    display: flex;
+    
+}
+.header-btn a{
+    font-size:39px;
+    font-weight: 800;
+    padding: 10px 15px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    border: 6px #000 solid;
+    border-radius: 10px;
+}
+.header-btn a:hover{
+    background-color: blue;
+    transition: 1s;
+}
+
+.iphone-1{
+    height: 476px;
+    width: 436px;
+    position: absolute;
+    z-index: 2;
+    right: 81px;
+    bottom: 108px;
+    
+}
+.iphone-2{
+    height: 507px;
+    width: 268px;
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+}
